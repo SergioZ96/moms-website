@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="redirect.js"></script>
+    <script type="text/javascript">receiveRedirect()</script>
+
+    <script type="text/javascript" src="templates/homepage.js"></script>
+    <script type="text/javascript" src="templates/menu.js"></script>
+    <script type="text/javascript" src="templates/about.js"></script>
+    <script type="text/javascript" src="templates/contact.js"></script>
+    
+</head>
+<body>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="#" onclick="onNavItemClick('/menu'); return false;">Menu</a></li>
+            <li><a href="#" onclick="onNavItemClick('/about'); return false;">About</a></li>
+            <li><a href="#" onclick="onNavItemClick('/contact'); return false;">Contact</a></li>
+            
+        </ul>
+    </nav>
+
+    <div id="content" class="content"></div>
+    <script type="text/javascript" src="router.js"></script>
+   
+</body>
+</html>
