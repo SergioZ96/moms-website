@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Malaga";
+    src: url("Malaga-OT-Med.otf");
+    src:
+    url("Malaga-OT-Med.otf") format("opentype");
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    font-family: 'Malaga';
+}
+.topnav{
+    padding: 20px;
+}
+
+.topnav ul {
+    position: relative;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 20%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.topnav ul li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    
+}
+
+.topnav ul li a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.topnav ul li a:hover {
+    color: grey;
+}

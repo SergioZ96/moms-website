@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/menu.css">
+
+    <!-- JS -->
     <script src="redirect.js"></script>
     <script type="text/javascript">receiveRedirect()</script>
 
@@ -16,8 +21,9 @@
 </head>
 <body>
     
-    <nav class="navbar">
+    <nav class="topnav">
         <ul>
+            <li><a href="#" onclick="onNavItemClick('/'); return false;">Home</a></li>
             <li><a href="#" onclick="onNavItemClick('/menu'); return false;">Menu</a></li>
             <li><a href="#" onclick="onNavItemClick('/about'); return false;">About</a></li>
             <li><a href="#" onclick="onNavItemClick('/contact'); return false;">Contact</a></li>
@@ -25,7 +31,7 @@
         </ul>
     </nav>
 
-    <div id="content" class="content"></div>
+    <div id="content" class="content" style="margin-right:20%;margin-left:20%;"></div>
     <script type="text/javascript" src="router.js"></script>
    
 </body>
