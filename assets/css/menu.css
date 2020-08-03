@@ -1,0 +1,115 @@
+.menu-container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: center;
+    width: 900px;
+    height: 600px;
+    background-color: whitesmoke;
+}
+
+.menu-container .sopas{
+    margin-top: 20px;
+    width: 40%;
+    min-width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    border-bottom: 2px solid black;
+}
+
+.menu-container .sopas > div {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    flex-basis: 40%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu-container .sopas #sopa-de-mani:hover {
+    background: url("../images/sopa-de-mani.jpg") no-repeat;
+    background-position: center;
+    background-size: 190px;
+}
+
+.menu-container .sopas #fideos-uchu:hover {
+    background: url("../images/fideos-uchu.jpg") no-repeat;
+    background-position: center;
+    background-size: 260px;
+}
+
+.menu-container .sopas #kawi:hover {
+    background: url("../images/kawi.jpeg") no-repeat;
+    background-position: center;
+    background-size: 220px;
+}
+
+.menu-container .sopas #sopa-de-quinoa:hover {
+    background: url("../images/sopa-de-quinoa.jpg") no-repeat;
+    background-position: center;
+    background-size: 240px;
+}
+
+
+.menu-container .platos {
+    margin-top: 40px;
+    width: 40%;
+    min-width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-content: flex-end;
+}
+
+.menu-container .platos > div {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    flex-basis: 40%;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.menu-container .platos .chicharron:hover {
+    background: url("../images/chicharron.jpg") no-repeat;
+    background-position: center;
+    background-size: 240px;
+}
+
+.menu-container .platos .silpancho:hover {
+    background: url("../images/silpancho.jpeg") no-repeat;
+    background-position: center;
+    background-size: 200px;
+}
+
+.menu-container .platos .charque:hover {
+    background: url("../images/charque.jpeg") no-repeat;
+    background-position: center;
+    background-size: 200px;
+}
+
+.menu-container .platos .pique-macho:hover {
+    background: url("../images/pique-macho.jpg") no-repeat;
+    background-position: center;
+    background-size: 200px;
+}
+
+.menu-container #food-info {
+    margin: 25px;
+    width: 400px;
+    height: 820px;
+    text-align: center;
+    
+    /* align-content: center; */
+}
