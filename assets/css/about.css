@@ -1,0 +1,36 @@
+#about-one{
+    margin-top: 100px;
+    width: 1150px;
+    max-width: 950px;
+    max-width: 100%;
+    height: 500px;
+    background-color: red;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-two{
+    width: 1150px;
+    max-width: 950px;
+    max-width: 100%;
+    height: 500px;
+    background-color: yellow;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-three{
+    width: 1150px;
+    max-width: 950px;
+    max-width: 100%;
+    height: 500px;
+    background-color: green;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
