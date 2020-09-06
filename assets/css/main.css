@@ -1,3 +1,9 @@
+/* $smartphones:20em;
+$tablet:40em;
+$laptops:60em;
+$desktops:80em; */
+
+
 @font-face {
     font-family: "Malaga";
     src: url("Malaga-OT-Med.otf");
@@ -14,31 +20,147 @@ body{
     padding: 20px;
 }
 
-.topnav ul {
-    position: relative;
-    padding: 0;
-    list-style-type: none;
-    margin-left: 20%;
-    display: flex;
-    justify-content: flex-end;
-    height: 100%;
-}
+/* Desktops */
+@media screen and (min-width: 80em){
+    .topnav ul {
 
-.topnav ul li {
-    display: inline-block;
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
+        position: relative;
+        padding: 0;
+        list-style-type: none;
+        margin-left: 20%;
+        display: flex;
+        justify-content: flex-end;
+        height: 100%;
+    }
 
+    .topnav ul li {
+        display: inline-block;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
     
-}
-
-.topnav ul li a {
-    text-decoration: none;
-    color: inherit;
+        
+    }
     
+    .topnav ul li a {
+        text-decoration: none;
+        color: inherit;
+        
+    }
+    
+    .topnav ul li a:hover {
+        color: grey;
+    }
+
+}
+/* Laptops */
+@media screen and (max-width: 80em) and (min-width: 60em){
+    .topnav ul {
+
+        position: relative;
+        padding: 0;
+        list-style-type: none;
+        margin-left: 20%;
+        display: flex;
+        justify-content: flex-end;
+        height: 100%;
+    }
+
+    .topnav ul li {
+        display: inline-block;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    
+        
+    }
+    
+    .topnav ul li a {
+        text-decoration: none;
+        color: inherit;
+        
+    }
+    
+    .topnav ul li a:hover {
+        color: grey;
+    }
+
 }
 
-.topnav ul li a:hover {
-    color: grey;
+/* Tablets */
+@media screen and (max-width: 60em) and (min-width: 40em){
+    .topnav ul {
+
+        position: relative;
+        padding: 0;
+        list-style-type: none;
+        margin-left: 20%;
+        display: flex;
+        justify-content: flex-end;
+        height: 100%;
+    }
+
+
+    .topnav ul li {
+        display: inline-block;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+
+        
+    }
+
+    .topnav ul li a {
+        text-decoration: none;
+        color: inherit;
+        
+    }
+
+    .topnav ul li a:hover {
+        color: grey;
+    }
+
 }
+/* Smartphones */
+@media screen and (max-width: 40em){
+    .topnav {
+        padding: 0px;
+        background-color: #d9dddc;
+    }
+
+    .topnav ul {
+
+        position: relative;
+        padding: 0;
+        list-style-type: none;
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
+
+    .topnav ul li {
+        display: inline-block;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 5px;
+        
+    }
+
+    .topnav ul li a {
+        text-decoration: none;
+        color: inherit;
+        
+    }
+
+    .topnav ul li a:hover {
+        color: grey;
+    }
+
+}
+
+
+

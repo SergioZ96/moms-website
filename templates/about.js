@@ -4,7 +4,7 @@ let about = {
             <h3>¡Soy Dunia!</h3>
         </div>
         <div id="about-two" class="about-div">
-            <h3>Y Me Encanta Cocinar </h3>
+            <h3>Me Encanta Cocinar </h3>
         </div>
         <div id="about-three" class="about-div">
             <h3>Con Amor Desde Bolivia</h3>
