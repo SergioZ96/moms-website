@@ -1,7 +1,12 @@
 let homepage = {
-    render : ``,
+    render : 
+        `<div id="home-wrapper">
+            <h2>Bienvenidos</h2>
+         </div>`,
     after_render: async () => {
-        //alert("This is the homepage");
+        //Bienvenidos Fade 
+        //document.getElementById("home-wrapper").className += 'fade-out';
+        
         return true;
     }
 };
