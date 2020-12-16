@@ -9,7 +9,8 @@
     min-width: 950px;
     max-width: 100%;
     height: 600px;
-    background-color: whitesmoke;
+    background-color: rgb(245, 245, 245,0.8);
+    /* background-color: whitesmoke; */
 }
 
 .menu-container .sopas{

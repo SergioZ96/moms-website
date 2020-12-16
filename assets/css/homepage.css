@@ -1,12 +1,71 @@
 #home-wrapper {
-    /* opacity: 1;
-    transition: 1s opacity; */
-    animation: fadeInAnimation ease 3s;
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#first-home-block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(245, 245, 245,0.5);
+    padding-top: 15%;
+    padding-bottom: 15%;
+    border-radius: 7px;
+}
+
+#first-home-block img{
+    width: 400px;
+    height: 300px;
+    border-radius: 4px;
+}
+/* 
+#home-wrapper h2 {
+    font-size: 3em;
+    text-align: center;
+    animation: fadeOutAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
-@keyframes fadeInAnimation {
+@keyframes fadeOutAnimation {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#home-wrapper #main-abouts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 3em;
+    
+}
+
+#home-wrapper #main-abouts #about-one {
+    background-color: red;
+    min-width: 900px;
+    width: 85%;
+    height: 20%;
+    border-radius: 7px;
+    padding: 10px;
+    text-align: center;
+    animation: fadeRedAnimation linear 2s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeRedAnimation {
     0% {
         opacity: 0;
     }
@@ -14,3 +73,49 @@
         opacity: 1;
     }
 }
+
+#home-wrapper #main-abouts #about-two {
+    background-color: yellow;
+    min-width: 900px;
+    width: 85%;
+    height: 20%;
+    border-radius: 7px;
+    padding: 10px;
+    text-align: center;
+    animation: fadeYellowAnimation linear 2s;
+    animation-delay: 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeYellowAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#home-wrapper #main-abouts #about-three {
+    background-color: green;
+    min-width: 900px;
+    width: 85%;
+    height: 20%;
+    border-radius: 7px;
+    padding: 10px;
+    text-align: center;
+    animation: fadeGreenAnimation linear 2s;
+    animation-delay: 9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeGreenAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} */

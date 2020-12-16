@@ -13,11 +13,30 @@ $desktops:80em; */
 
 body{
     margin: 0;
-    height: 100%;
+    padding: 0;
+    height: 100vh;
+    min-height: 100vh;
+    width: 100vw;
     font-family: 'Malaga';
+    background-image: url('../images/cholita-waterside.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
+
+
 .topnav{
     padding: 20px;
+}
+
+footer{ 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+#footer-container{
+    width: 100%;
 }
 
 /* Desktops */
@@ -44,12 +63,12 @@ body{
     
     .topnav ul li a {
         text-decoration: none;
-        color: inherit;
+        color: #CDCDCD;
         
     }
     
     .topnav ul li a:hover {
-        color: grey;
+        color: white;
     }
 
 }
